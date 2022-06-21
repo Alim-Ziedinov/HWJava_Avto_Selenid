@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/gsphgmqx5l5k7r5m/branch/master?svg=true)](https://ci.appveyor.com/project/Alim-Ziedinov/hwjava-avto-selenid/branch/master)
