@@ -17,7 +17,7 @@ public class CallbackTest {
 
     @BeforeAll
     public static void setUpAll() {
-        System.setProperty("webdriver.gecko.driver", "./win/geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "./drivers/win/geckodriver.exe");
     }
 
     @BeforeEach
@@ -28,7 +28,7 @@ public class CallbackTest {
 
     @Test
     void shouldSubmitRequest() {
-        driver.get("http://localhost:9999/");
+        driver.get("http://localhost:9999");
         driver.findElement(By.cssSelector("[type='text']")).sendKeys("Сюзанна");
         driver.findElement(By.cssSelector("[type='tel']")).sendKeys("+79788586822");
      //   List<WebElement> elements = driver.findElements(By.className("input__control"));
