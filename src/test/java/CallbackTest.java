@@ -29,6 +29,7 @@ public class CallbackTest {
     @Test
     void shouldSubmitRequest() {
         driver.get("http://localhost:9999");
+        List<WebElement> elements = driver.findElements(By.className("input__control"));
         driver.findElement(By.cssSelector("[type='text']")).sendKeys("Сюзанна");
         driver.findElement(By.cssSelector("[type='tel']")).sendKeys("+79788586822");
      //   List<WebElement> elements = driver.findElements(By.className("input__control"));
