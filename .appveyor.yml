@@ -13,4 +13,5 @@ install:
 
 build_script:
   - chmod +x gradlew
+  - chmod +x geckodriver
   - ./gradlew test --info -Dselenide.headless=true
